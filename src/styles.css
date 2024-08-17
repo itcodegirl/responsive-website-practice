@@ -1,6 +1,6 @@
 body {
 	font-family: sofia, sans-serif;
-	background-color: #f4f4f4;
+	background-color: rgb(130, 129, 131);
 	font-size: 20px;
 	margin: 0;
 	padding: 0;
@@ -22,29 +22,18 @@ p {
 	line-height: 32px;
 }
 
-a:link {
-	text-align: center;
-	margin: 0;
-	font-size: 35px;
-	line-height: 30px;
-	color: blueviolet;
-}
-
-.link-tag {
+.link-tag,
+#link-tag {
 	text-align: center;
 	margin: 0;
 	font-size: 25px;
-	line-height: 30px;
+	line-height: 35px;
 	font-weight: 900;
 	font-family: sofia, sans-serif, cursive;
 	font-style: italic, underline;
+	color: rgb(40, 3, 75);
 }
 
-#link-tag {
-	font-size: 30px;
-	line-height: 30px;
-	color: rgb(147, 89, 201);
-	font-weight: 900;
-	font-family: sofia, sans-serif, cursive;
-
+a:hover {
+	color: rgb(40, 3, 75);
 }
