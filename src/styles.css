@@ -28,18 +28,14 @@ ul {
 #link-tag,
 #link-home,
 #aboutme-link,
-#faq {
+#faq,
+#email-contact {
 	text-align: center;
 	margin: 0;
-	font-size: 30px;
+	font-size: 35px;
 	line-height: 35px;
 	font-weight: 900;
 	font-family: sofia, sans-serif, cursive;
-	font-style: italic, underline;
-	color: rgb(40, 3, 75);
-
-}
-
-a:hover {
+	text-decoration: underline;
 	color: rgb(40, 3, 75);
 }
